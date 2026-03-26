@@ -12,7 +12,7 @@
 ### 代码生成
 
 - [姜剑峰](jiangjianfeng/): 静态的死锁监测工具, rust
-- [李睿涵](liruihan/): vsock的实现, rust
+- [李睿涵](liruihan/): virtio-vsock的实现, rust
 - [李昕昊](lixinhao/): virtio-9p和virtio-crypto的实现, rust
 - [林灿](lincan/): 
 
