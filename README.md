@@ -1,23 +1,20 @@
 # Agent-thon Projects
 
-### Bug Hunting
+### 自动debug
 
-- chenchengjun
-- chenqingsong
-- sutao
-- wangzhenchen
-- yuxinyi
-- zhangwei
+- [陈澄钧](chenchengjun/):
+- [陈青松](https://github.com/jjf-dev/ai-hackthon/tree/main/chenqingsong): 自动修复在星绽上运行Linux Test Project中遇到的问题
+- [苏涛](https://github.com/jjf-dev/ai-hackthon/tree/main/sutao): 将Codex应用移植到星绽上
+- [王振辰](https://github.com/jjf-dev/ai-hackthon/tree/main/wangzhenchen):
+- [于芯邑](https://github.com/jjf-dev/ai-hackthon/tree/main/yuxinyi):
+- [张巍](https://github.com/jjf-dev/ai-hackthon/tree/main/zhangwei):
 
-### UI
+### 代码生成
 
-- lincan
-
-### Vibe coding
-
-- jiangjianfeng
-- liruihan
-- lixinhao
+- [姜剑峰](https://github.com/jjf-dev/ai-hackthon/tree/main/jiangjianfeng): 静态的死锁监测工具, rust
+- [李睿涵](https://github.com/jjf-dev/ai-hackthon/tree/main/liruihan): vsock的实现, rust
+- [李昕昊](https://github.com/jjf-dev/ai-hackthon/tree/main/lixinhao): virtio-9p和virtio-crypto的实现, rust
+- [林灿](https://github.com/jjf-dev/ai-hackthon/tree/main/lincan): 
 
 # Group playbook link
 
