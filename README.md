@@ -18,3 +18,8 @@
 - jiangjianfeng
 - liruihan
 - lixinhao
+
+# Group playbook
+
+- [Group A](https://jjf-dev.github.io/playbook/playbook_A/index.html)
+- [Group B](https://jjf-dev.github.io/playbook/playbook_B/agent.html)
