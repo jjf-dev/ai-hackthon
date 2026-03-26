@@ -3,8 +3,8 @@
 ### 自动debug
 
 - [陈澄钧](chenchengjun/):
-- [陈青松](chenqingsong/): 自动修复在星绽上运行Linux Test Project中遇到的问题
-- [苏涛](sutao/): 将Codex应用移植到星绽上
+- [陈青松](chenqingsong/): 修复在星绽上运行Linux Test Project中遇到的问题
+- [苏涛](sutao/): 修复将Codex应用移植到星绽上遇到的问题
 - [王振辰](wangzhenchen/):
 - [于芯邑](yuxinyi/):
 - [张巍](zhangwei/):
