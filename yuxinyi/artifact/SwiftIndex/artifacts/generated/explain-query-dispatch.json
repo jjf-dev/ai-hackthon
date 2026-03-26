@@ -1,0 +1,98 @@
+{
+  "items": [
+    {
+      "query": "query dispatch",
+      "top_symbols": [
+        {
+          "qualname": "repo_index::query::dispatch",
+          "kind": "fn",
+          "file_path": "src/query/mod.rs",
+          "line_range": [
+            16,
+            76
+          ],
+          "signature": null,
+          "summary": "fn dispatch; returns Result",
+          "score": 186.54517744447955,
+          "why": [
+            "symbol full-text match",
+            "chunk content match"
+          ]
+        }
+      ],
+      "top_files": [
+        {
+          "path": "src/query/mod.rs",
+          "crate_name": "repo_index",
+          "module_path": "query",
+          "summary": "crate repo_index; module query; contains 1 fn, 10 mod",
+          "symbol_count": 11,
+          "score": 78.69902359832571,
+          "why": [
+            "file full-text match",
+            "chunk content match"
+          ]
+        },
+        {
+          "path": "src/query/suggest.rs",
+          "crate_name": "repo_index",
+          "module_path": "query::suggest",
+          "summary": "crate repo_index; module query::suggest; contains 12 fn",
+          "symbol_count": 12,
+          "score": 75.89929011127487,
+          "why": [
+            "file full-text match",
+            "chunk content match"
+          ]
+        }
+      ],
+      "outline_summary": "crate repo_index; module query; contains 1 fn, 10 mod | top-level: mod common [1-1], mod compactor [2-2], mod entrypoints [3-3], mod explain [4-4], mod files [5-5] | tests: 0",
+      "neighbors": [
+        {
+          "label": "suggest::run",
+          "kind": "calls",
+          "detail": "callee=suggest::run, line=68",
+          "why": [
+            "outgoing call edge"
+          ]
+        },
+        {
+          "label": "args.db.as_deref",
+          "kind": "calls",
+          "detail": "callee=args.db.as_deref, line=70",
+          "why": [
+            "outgoing call edge"
+          ]
+        },
+        {
+          "label": "outline::snippet",
+          "kind": "calls",
+          "detail": "callee=outline::snippet, line=60",
+          "why": [
+            "outgoing call edge"
+          ]
+        },
+        {
+          "label": "src/query/suggest.rs",
+          "kind": "test_file",
+          "detail": "import path references files; cochanged 3 times; import path references symbols; import path references common",
+          "why": [
+            "related test file"
+          ]
+        }
+      ],
+      "next_steps": [
+        "read top symbol snippet: repo_index::query::dispatch",
+        "outline src/query/mod.rs",
+        "expand to related tests"
+      ],
+      "why": [
+        "combined symbol, file, outline, and neighbor retrieval",
+        "reranked with lexical, structural, git, test, and entrypoint signals"
+      ]
+    }
+  ],
+  "confidence": 0.78116417,
+  "is_exhaustive": false,
+  "expansion_hint": "expand to related tests"
+}

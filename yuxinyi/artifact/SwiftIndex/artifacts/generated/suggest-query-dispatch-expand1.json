@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "files": [
+        {
+          "path": "src/query/mod.rs",
+          "qualname": null,
+          "summary": "crate repo_index; module query; contains 1 fn, 10 mod",
+          "score": 78.69902359832571,
+          "why": [
+            "file full-text match",
+            "chunk content match",
+            "fuzzy match"
+          ]
+        },
+        {
+          "path": "src/query/suggest.rs",
+          "qualname": null,
+          "summary": "crate repo_index; module query::suggest; contains 12 fn",
+          "score": 75.89929011127487,
+          "why": [
+            "file full-text match",
+            "chunk content match",
+            "fuzzy match"
+          ]
+        },
+        {
+          "path": "src/model/query.rs",
+          "qualname": null,
+          "summary": "crate repo_index; module model::query; contains 13 struct",
+          "score": 75.00671590601803,
+          "why": [
+            "file full-text match",
+            "chunk content match",
+            "fuzzy match"
+          ]
+        }
+      ],
+      "symbols": [
+        {
+          "path": "src/query/mod.rs",
+          "qualname": "repo_index::query::dispatch",
+          "summary": "fn dispatch; returns Result",
+          "score": 186.54517744447955,
+          "why": [
+            "symbol full-text match",
+            "chunk content match",
+            "fuzzy match"
+          ]
+        }
+      ],
+      "tests": [
+        {
+          "path": "src/query/suggest.rs",
+          "qualname": null,
+          "summary": "crate repo_index; module query::suggest; contains 12 fn",
+          "score": 491.5899290111275,
+          "why": [
+            "import path references files; cochanged 3 times; import path references symbols; import path re...",
+            "suggested from src/query/mod.rs",
+            "same file test module; same crate test module"
+          ]
+        }
+      ],
+      "why": [
+        "suggestions combine symbol and file retrieval",
+        "ranking includes structural, git, entrypoint, and test-mapping signals"
+      ]
+    }
+  ],
+  "confidence": 0.78116417,
+  "is_exhaustive": false,
+  "expansion_hint": "expand to related tests"
+}

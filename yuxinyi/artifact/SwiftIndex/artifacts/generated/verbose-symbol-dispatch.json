@@ -1,0 +1,47 @@
+[
+  {
+    "qualname": "repo_index::query::dispatch",
+    "kind": "fn",
+    "file_path": "src/query/mod.rs",
+    "line_range": [
+      16,
+      76
+    ],
+    "signature": null,
+    "summary": "fn dispatch; returns Result",
+    "score": 1313.5451774444796,
+    "why": [
+      "summary match",
+      "symbol full-text match",
+      "chunk content match",
+      "exact symbol name match",
+      "prefix lexical match",
+      "substring lexical match",
+      "fuzzy match",
+      "full-text match",
+      "same module as query",
+      "called by dispatch",
+      "hot file in git history (3 commits)",
+      "import path references files; cochanged 3 times; import path references symbols; import path references common"
+    ]
+  },
+  {
+    "qualname": "repo_index::cli::query::handle",
+    "kind": "fn",
+    "file_path": "src/cli/query.rs",
+    "line_range": [
+      5,
+      7
+    ],
+    "signature": null,
+    "summary": "fn handle; returns Result",
+    "score": 29.77258872223978,
+    "why": [
+      "chunk content match",
+      "chunk content full-text match",
+      "called by handle",
+      "cochanged 1 times",
+      "hot file in git history (1 commits)"
+    ]
+  }
+]

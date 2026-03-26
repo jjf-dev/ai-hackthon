@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "path": "src/extractor/symbols.rs",
+      "crate_name": "repo_index",
+      "module_path": "extractor::symbols",
+      "summary": "crate repo_index; module extractor::symbols; contains 23 fn, 1 impl, 8 struct; implements behavior blocks",
+      "symbol_count": 32,
+      "score": 457.39444915467243,
+      "why": [
+        "file full-text match",
+        "chunk content match"
+      ]
+    }
+  ],
+  "confidence": 0.99,
+  "is_exhaustive": false,
+  "expansion_hint": "read top file outline or expand file search"
+}

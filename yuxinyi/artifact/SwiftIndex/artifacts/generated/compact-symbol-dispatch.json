@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "qualname": "repo_index::query::dispatch",
+      "kind": "fn",
+      "file_path": "src/query/mod.rs",
+      "line_range": [
+        16,
+        76
+      ],
+      "signature": null,
+      "summary": "fn dispatch; returns Result",
+      "score": 1313.5451774444796,
+      "why": [
+        "summary match",
+        "symbol full-text match"
+      ]
+    }
+  ],
+  "confidence": 0.99,
+  "is_exhaustive": false,
+  "expansion_hint": "read top symbol snippet or expand to neighbors"
+}

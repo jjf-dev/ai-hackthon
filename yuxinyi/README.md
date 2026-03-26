@@ -105,6 +105,18 @@ Error Analysis → Bug Classification → Spec Writing → Implementation → Ve
 ### 功能实现
 1. **generic/015** - splice syscall
 
+## SwiftIndex
+
+为 Agent 开发的轻量级 Rust 代码索引工具，核心创新是**紧凑检索 + 渐进扩展**：默认返回最小有用结果，Agent 可按需扩展。
+
+**特性**：
+- 基于 SQLite + FTS5 的本地索引
+- 多信号重排序（词法、结构、Git、关系）
+- 置信度感知的动态 top-k 选择
+- 支持符号查找、文件搜索、代码大纲、邻居发现等查询接口
+
+详见 [SwiftIndex.md](./SwiftIndex.md)
+
 ## Agent 使用
 
 ### 核心 Skills
